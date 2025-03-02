@@ -35,7 +35,10 @@
   "name":"Adapt",
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"spr_character_placeholder","path":"sprites/spr_character_placeholder/spr_character_placeholder.yy",},},
+    {"id":{"name":"spr_character","path":"sprites/spr_character/spr_character.yy",},},
+    {"id":{"name":"spr_dog","path":"sprites/spr_dog/spr_dog.yy",},},
+    {"id":{"name":"spr_drone","path":"sprites/spr_drone/spr_drone.yy",},},
+    {"id":{"name":"spr_fascist","path":"sprites/spr_fascist/spr_fascist.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
