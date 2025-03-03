@@ -35,6 +35,7 @@
   "name":"Adapt",
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"spr_background_incinerator","path":"sprites/spr_background_incinerator/spr_background_incinerator.yy",},},
     {"id":{"name":"spr_character","path":"sprites/spr_character/spr_character.yy",},},
     {"id":{"name":"spr_dog","path":"sprites/spr_dog/spr_dog.yy",},},
     {"id":{"name":"spr_drone","path":"sprites/spr_drone/spr_drone.yy",},},
