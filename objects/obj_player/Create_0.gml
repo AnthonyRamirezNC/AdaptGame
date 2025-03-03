@@ -1,1 +1,13 @@
-gravity_direction = 270
+gravity_direction = 270;
+image_speed = 0;
+
+enum States {
+	//	TODO: Add necessary values to this enum in order to define player states
+	// (refer to GrabAxis regarding formatting & syntax for enumerators)
+	Still,
+	Moving,
+	Jumping,
+}
+
+state = States.Still;
+image_index = 64;
