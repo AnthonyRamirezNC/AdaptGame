@@ -10,4 +10,4 @@ enum States {
 }
 
 state = States.Still;
-image_index = 64;
+image_index = 0;
