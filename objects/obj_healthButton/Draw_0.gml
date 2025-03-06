@@ -1,0 +1,1 @@
+draw_sprite(spr_health,0,x,y);

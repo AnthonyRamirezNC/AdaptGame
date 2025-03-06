@@ -1,0 +1,1 @@
+draw_sprite(spr_speed,0,x,y)

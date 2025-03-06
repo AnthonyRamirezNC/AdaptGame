@@ -1,0 +1,1 @@
+draw_sprite(spr_vision,0,x,y)

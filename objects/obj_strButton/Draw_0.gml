@@ -1,0 +1,1 @@
+draw_sprite(spr_strength,0,x,y)
