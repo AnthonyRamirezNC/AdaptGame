@@ -38,7 +38,6 @@
     {"name":"inst_489CA1B9","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_75166B6","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_73C0352D","path":"rooms/Room1/Room1.yy",},
-
   ],
   "isDnd":false,
   "layers":[
@@ -95,7 +94,6 @@
   "resourceType":"GMRoom",
   "resourceVersion":"2.0",
   "roomSettings":{
-
     "Height":2000,
     "inheritRoomSettings":false,
     "persistent":false,
