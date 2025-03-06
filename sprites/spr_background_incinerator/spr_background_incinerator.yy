@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"spr_background_incinerator",
   "bboxMode":0,
-  "bbox_bottom":2999,
+  "bbox_bottom":374,
   "bbox_left":0,
-  "bbox_right":3999,
+  "bbox_right":499,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":3000,
+  "height":375,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"73efa45a-a4bf-49a0-a81c-59fdb9456d28","blendMode":0,"displayName":"default","isLocked":false,"name":"73efa45a-a4bf-49a0-a81c-59fdb9456d28","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"incinerator",
+    "path":"folders/Sprites/incinerator.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":4000,
+  "width":500,
 }

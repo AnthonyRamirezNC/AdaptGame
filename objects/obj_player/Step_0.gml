@@ -44,7 +44,7 @@ if (state == States.Jumping) {
 if (state != States.Jumping) {
 	 if (keyboard_check(vk_up)) {
 		state = States.Jumping;
-		image_index += image_index % 8 + 121; // Get the correct index
+		image_index += image_index % 8 + 56; // Get the correct index
 	} else if ((keyboard_check(vk_right) or keyboard_check(vk_left))) {
 		state = States.Moving;
 	} else {
@@ -58,14 +58,16 @@ switch (state) {
 	break;
 	case States.Moving:
 		image_index += animation_move_speed;
-		if (image_index >= 120 or image_index < 64) {
-			image_index = 64;
+		// Animation range of 0-55
+		if (image_index > 55 or image_index < 0) {
+			image_index = 0;
 		}
 	break;
 	case States.Jumping:
 		image_index += animation_move_speed;
-		if (image_index > 127 or image_index < 120) {
-			image_index = 120;
+		// Animation range of 56-63
+		if (image_index > 63 or image_index < 56) {
+			image_index = 56;
 		}
 	break;
 }
