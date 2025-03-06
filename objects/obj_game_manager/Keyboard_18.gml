@@ -31,12 +31,13 @@ if (keyboard_check_pressed(ord("V"))) {
 	show_debug_message(view_camera[0]);
 	if (vision_level == Vision.Level_1) {
 		vision_level = Vision.Level_2;
-		camera_set_view_size(view_camera[0], 777, 444);
+		camera_set_view_size(view_camera[0], 1029, 588);
 	} else if (vision_level == Vision.Level_2) {
 		vision_level = Vision.Level_3;
-		camera_set_view_size(view_camera[0], 1029, 588);
+		// New max view
+		camera_set_view_size(view_camera[0], 1281, 732);
 	} else {
 		vision_level = Vision.Level_1;
-		camera_set_view_size(view_camera[0], 518, 296);
+		camera_set_view_size(view_camera[0], 777, 444);
 	}
 }
