@@ -56,6 +56,7 @@
     {"id":{"name":"snd_background_music","path":"sounds/snd_background_music/snd_background_music.yy",},},
     {"id":{"name":"spr_background_incinerator","path":"sprites/spr_background_incinerator/spr_background_incinerator.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
+    {"id":{"name":"spr_battery","path":"sprites/spr_battery/spr_battery.yy",},},
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},},
     {"id":{"name":"spr_character","path":"sprites/spr_character/spr_character.yy",},},
     {"id":{"name":"spr_death","path":"sprites/spr_death/spr_death.yy",},},
