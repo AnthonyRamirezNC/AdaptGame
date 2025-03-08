@@ -14,3 +14,5 @@ image_index = 0;
 
 //this boolean makes it so that once the player leaves the menu area the skill menu cannot respawn
 menu_allowed_spawn = true;
+
+global.var_player_dying = false
