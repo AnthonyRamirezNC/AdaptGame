@@ -1,7 +1,9 @@
 //check if transitioning rooms
 show_debug_message("Room Start Event Triggered");
 if(global.var_player_dying){
-	transitionRooms = false	
+	show_debug_message("player dying so set transition to false and reset dying")
+	transitionRooms = false
+	global.var_player_dying = false
 }
 if(instance_exists(obj_player) and transitionRooms == true){
 	//transitioning rooms, reset stats
