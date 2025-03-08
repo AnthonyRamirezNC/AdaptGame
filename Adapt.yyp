@@ -52,9 +52,7 @@
     {"id":{"name":"obj_spdButton","path":"objects/obj_spdButton/obj_spdButton.yy",},},
     {"id":{"name":"obj_strButton","path":"objects/obj_strButton/obj_strButton.yy",},},
     {"id":{"name":"obj_visButton","path":"objects/obj_visButton/obj_visButton.yy",},},
-
     {"id":{"name":"path_drone","path":"paths/path_drone/path_drone.yy",},},
-
     {"id":{"name":"Incinerator","path":"rooms/Incinerator/Incinerator.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"snd_background_music","path":"sounds/snd_background_music/snd_background_music.yy",},},
