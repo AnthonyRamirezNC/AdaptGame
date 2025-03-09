@@ -1,10 +1,16 @@
-enum Vision {
-	Level_1,
-	Level_2,
-	Level_3,
-}
+// Player levels
+vision_level = 1;
+speed_level = 1;
+strength_level = 1;
+durability_level = 1;
+jump_level = 1;
 
-vision_level = Vision.Level_1;
+energy_used = 0; // imma implement this later
+energy_max = 10;
+
+// Player hp
+hp = 1;
+show_debug_message(hp);
 
 // Creating globals
 global.var_energy = 5;

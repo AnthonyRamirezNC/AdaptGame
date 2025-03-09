@@ -15,3 +15,6 @@ image_index = 0;
 //this boolean makes it so that once the player leaves the menu area the skill menu cannot respawn
 menu_allowed_spawn = true;
 
+
+scr_character_level_setter();
+
