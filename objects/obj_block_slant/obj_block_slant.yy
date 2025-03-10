@@ -1,13 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_death",
+  "%Name":"obj_block_slant",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_death",
+  "name":"obj_block_slant",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,10 +28,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
-    "name":"spr_death",
-    "path":"sprites/spr_death/spr_death.yy",
+    "name":"spr_block_slant",
+    "path":"sprites/spr_block_slant/spr_block_slant.yy",
   },
   "spriteMaskId":null,
   "visible":true,

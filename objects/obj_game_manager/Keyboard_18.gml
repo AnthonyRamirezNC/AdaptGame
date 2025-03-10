@@ -28,16 +28,12 @@ if (keyboard_check_pressed(ord("P"))) {
 
 // Change viewport prototype of vision
 if (keyboard_check_pressed(ord("V"))) {
-	show_debug_message(view_camera[0]);
-	if (vision_level == Vision.Level_1) {
-		vision_level = Vision.Level_2;
-		camera_set_view_size(view_camera[0], 1029, 588);
-	} else if (vision_level == Vision.Level_2) {
-		vision_level = Vision.Level_3;
-		// New max view
-		camera_set_view_size(view_camera[0], 1281, 732);
+	if (vision_level == 1) {
+		vision_level = 2;
+	} else if (vision_level == 2) {
+		vision_level = 3;
 	} else {
-		vision_level = Vision.Level_1;
-		camera_set_view_size(view_camera[0], 777, 444);
+		vision_level = 1;
 	}
+	set_vision(vision_level);
 }
