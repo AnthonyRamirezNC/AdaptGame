@@ -1,0 +1,22 @@
+{
+  "$GMPath":"",
+  "%Name":"path_drone",
+  "closed":true,
+  "kind":1,
+  "name":"path_drone",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":704.0,"y":320.0,},
+    {"speed":100.0,"x":960.0,"y":192.0,},
+    {"speed":100.0,"x":1248.0,"y":320.0,},
+    {"speed":100.0,"x":992.0,"y":512.0,},
+    {"speed":100.0,"x":960.0,"y":480.0,},
+    {"speed":100.0,"x":608.0,"y":320.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}
