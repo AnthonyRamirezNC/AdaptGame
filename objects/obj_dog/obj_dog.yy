@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_meltingpot",
+  "%Name":"obj_dog",
   "eventList":[],
   "managed":true,
-  "name":"obj_meltingpot",
+  "name":"obj_dog",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -26,10 +26,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"spr_meltingpot",
-    "path":"sprites/spr_meltingpot/spr_meltingpot.yy",
+    "name":"spr_dog",
+    "path":"sprites/spr_dog/spr_dog.yy",
   },
   "spriteMaskId":null,
   "visible":true,
