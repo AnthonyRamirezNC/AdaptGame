@@ -17,6 +17,3 @@ menu_allowed_spawn = true;
 
 
 scr_character_level_setter();
-
-//handles particle system for player movement
-self.MovementEmitter = part_system_create(PS_WalkingParticle);

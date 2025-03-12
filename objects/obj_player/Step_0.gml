@@ -77,7 +77,6 @@ switch (state) {
 		if (image_index > 55 or image_index < 0) {
 			image_index = 0;
 		}
-		part_emitter_region(self.MovementEmitter, 0, x-6, y + 6, x -4, y +4, ps_shape_rectangle, ps_distr_linear)
 	break;
 	case States.Jumping:
 		image_index += animation_move_speed;
