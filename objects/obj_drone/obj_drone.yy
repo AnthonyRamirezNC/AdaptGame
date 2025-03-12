@@ -30,7 +30,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"sight_range","filters":[],"listItems":[],"multiselect":false,"name":"sight_range","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"300","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"sight_range","filters":[],"listItems":[],"multiselect":false,"name":"sight_range","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"150","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"fly_speed","filters":[],"listItems":[],"multiselect":false,"name":"fly_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"3","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"fly_path","filters":[],"listItems":[],"multiselect":false,"name":"fly_path","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"path_drone","path":"paths/path_drone/path_drone.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"path_drone","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"fire_rate","filters":[],"listItems":[],"multiselect":false,"name":"fire_rate","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"30","varType":0,},
