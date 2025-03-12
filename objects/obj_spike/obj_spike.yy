@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_meltingpot",
+  "%Name":"obj_spike",
   "eventList":[],
   "managed":true,
-  "name":"obj_meltingpot",
+  "name":"obj_spike",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_meltingpot",
-    "path":"sprites/spr_meltingpot/spr_meltingpot.yy",
+    "name":"spr_spike",
+    "path":"sprites/spr_spike/spr_spike.yy",
   },
   "spriteMaskId":null,
   "visible":true,

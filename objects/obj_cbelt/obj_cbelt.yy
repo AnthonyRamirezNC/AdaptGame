@@ -26,7 +26,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"spr_cbelt",
     "path":"sprites/spr_cbelt/spr_cbelt.yy",

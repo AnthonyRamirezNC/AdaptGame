@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_meltingpot",
+  "%Name":"obj_ladder",
   "eventList":[],
   "managed":true,
-  "name":"obj_meltingpot",
+  "name":"obj_ladder",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -26,10 +26,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"spr_meltingpot",
-    "path":"sprites/spr_meltingpot/spr_meltingpot.yy",
+    "name":"spr_ladder",
+    "path":"sprites/spr_ladder/spr_ladder.yy",
   },
   "spriteMaskId":null,
   "visible":true,

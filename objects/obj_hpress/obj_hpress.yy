@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_hpress",
-    "path":"sprites/spr_hpress/spr_hpress.yy",
+    "name":"spr_piston_incinerator",
+    "path":"sprites/spr_piston_incinerator/spr_piston_incinerator.yy",
   },
   "spriteMaskId":null,
   "visible":true,
