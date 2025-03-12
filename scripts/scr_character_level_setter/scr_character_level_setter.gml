@@ -38,20 +38,20 @@ function set_durability(lvl_durability) {
 	} else if (lvl_durability == 3) {
 		obj_game_manager.hp = 4;
 	} else {
-		obj_game_manager.hp = 1;
+		obj_game_manager.hp = 2000;
 	}
 	show_debug_message(obj_game_manager.hp);
 }
 
 function set_vision(lvl_vision) {
 	if (lvl_vision == 1) {
-		camera_set_view_size(view_camera[0], 777, 444);
+		camera_set_view_size(view_camera[0], 384, 216);
 	} else if (lvl_vision == 2) {
-		camera_set_view_size(view_camera[0], 1029, 588);
+		camera_set_view_size(view_camera[0], 576, 324);
 	} else if (lvl_vision == 3) {
-		camera_set_view_size(view_camera[0], 1281, 732);
+		camera_set_view_size(view_camera[0], 768, 432);
 	} else {
-		camera_set_view_size(view_camera[0], 420, 240);
+		camera_set_view_size(view_camera[0], 192, 108);
 	}
 }
 
