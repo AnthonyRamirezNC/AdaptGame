@@ -18,6 +18,7 @@
     {"$GMFolder":"","%Name":"Notes","folderPath":"folders/Notes.yy","name":"Notes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"movement sprite","folderPath":"folders/Particle Systems/movement sprite.yy","name":"movement sprite","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Paths","folderPath":"folders/Paths.yy","name":"Paths","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -31,7 +32,9 @@
   ],
   "IncludedFiles":[],
   "isEcma":false,
-  "LibraryEmitters":[],
+  "LibraryEmitters":[
+    {"name":"GM_FallingEmbers","path":"particlelib/GM_FallingEmbers/GM_FallingEmbers.yy",},
+  ],
   "MetaData":{
     "IDEVersion":"2024.11.0.179",
   },
@@ -58,6 +61,8 @@
     {"id":{"name":"obj_spdButton","path":"objects/obj_spdButton/obj_spdButton.yy",},},
     {"id":{"name":"obj_strButton","path":"objects/obj_strButton/obj_strButton.yy",},},
     {"id":{"name":"obj_visButton","path":"objects/obj_visButton/obj_visButton.yy",},},
+    {"id":{"name":"PS_FallingEmbers","path":"particles/PS_FallingEmbers/PS_FallingEmbers.yy",},},
+    {"id":{"name":"PS_WalkingParticle","path":"particles/PS_WalkingParticle/PS_WalkingParticle.yy",},},
     {"id":{"name":"path_drone","path":"paths/path_drone/path_drone.yy",},},
     {"id":{"name":"Incinerator_cp","path":"rooms/Incinerator_cp/Incinerator_cp.yy",},},
     {"id":{"name":"Incinerator","path":"rooms/Incinerator/Incinerator.yy",},},
