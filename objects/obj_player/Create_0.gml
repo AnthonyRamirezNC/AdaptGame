@@ -17,4 +17,3 @@ menu_allowed_spawn = true;
 
 
 scr_character_level_setter();
-
