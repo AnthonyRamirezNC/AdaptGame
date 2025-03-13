@@ -1,7 +1,7 @@
 {
   "$GMSprite":"",
   "%Name":"spr_character",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":1019,
   "bbox_left":136,
   "bbox_right":611,

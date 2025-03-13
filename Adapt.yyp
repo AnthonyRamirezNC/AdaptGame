@@ -49,6 +49,7 @@
     {"id":{"name":"obj_game_manager","path":"objects/obj_game_manager/obj_game_manager.yy",},},
     {"id":{"name":"obj_healthButton","path":"objects/obj_healthButton/obj_healthButton.yy",},},
     {"id":{"name":"obj_hole","path":"objects/obj_hole/obj_hole.yy",},},
+    {"id":{"name":"obj_hpress_col","path":"objects/obj_hpress_col/obj_hpress_col.yy",},},
     {"id":{"name":"obj_hpress","path":"objects/obj_hpress/obj_hpress.yy",},},
     {"id":{"name":"obj_jmpButton","path":"objects/obj_jmpButton/obj_jmpButton.yy",},},
     {"id":{"name":"obj_ladder","path":"objects/obj_ladder/obj_ladder.yy",},},
@@ -82,6 +83,7 @@
     {"id":{"name":"spr_fascist","path":"sprites/spr_fascist/spr_fascist.yy",},},
     {"id":{"name":"spr_health","path":"sprites/spr_health/spr_health.yy",},},
     {"id":{"name":"spr_hole","path":"sprites/spr_hole/spr_hole.yy",},},
+    {"id":{"name":"spr_hpress_col","path":"sprites/spr_hpress_col/spr_hpress_col.yy",},},
     {"id":{"name":"spr_jump","path":"sprites/spr_jump/spr_jump.yy",},},
     {"id":{"name":"spr_ladder","path":"sprites/spr_ladder/spr_ladder.yy",},},
     {"id":{"name":"spr_meltingpot","path":"sprites/spr_meltingpot/spr_meltingpot.yy",},},
@@ -100,8 +102,8 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Tutorial","path":"rooms/Tutorial/Tutorial.yy",},},
-    {"roomId":{"name":"Incinerator_test","path":"rooms/Incinerator_test/Incinerator_test.yy",},},
     {"roomId":{"name":"Incinerator","path":"rooms/Incinerator/Incinerator.yy",},},
+    {"roomId":{"name":"Incinerator_test","path":"rooms/Incinerator_test/Incinerator_test.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
