@@ -32,4 +32,6 @@ draw_set_halign(fa_center);
 var middle = x1 + (rect_w / 2)
 draw_set_font(fnt_skillMenu);
 draw_text(middle, y1 + inner_margin, "Energy Levels: " + string(energy_left));
+draw_text(middle, y2 + inner_margin, "Left MB to Add");
+draw_text(middle, y2 + inner_margin+32, "Right MB to Subtract");
 draw_set_halign(fa_left);
