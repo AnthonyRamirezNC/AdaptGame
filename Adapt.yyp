@@ -104,7 +104,7 @@
     {"id":{"name":"spr_jump","path":"sprites/spr_jump/spr_jump.yy",},},
     {"id":{"name":"spr_ladder","path":"sprites/spr_ladder/spr_ladder.yy",},},
 
-    {"id":{"name":"spr_meltingpot","path":"sprites/spr_meltingpot/spr_meltingpot.yy",},},
+
     {"id":{"name":"spr_menu","path":"sprites/spr_menu/spr_menu.yy",},},
     {"id":{"name":"spr_mmBackground","path":"sprites/spr_mmBackground/spr_mmBackground.yy",},},
 
