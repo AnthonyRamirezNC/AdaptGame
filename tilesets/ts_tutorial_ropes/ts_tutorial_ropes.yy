@@ -1,14 +1,14 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"ts_tutorial_items",
+  "%Name":"ts_tutorial_ropes",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"ts_tutorial_items",
-  "out_columns":46,
+  "name":"ts_tutorial_ropes",
+  "out_columns":16,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_ts_tutorial_items",
-    "path":"sprites/spr_ts_tutorial_items/spr_ts_tutorial_items.yy",
+    "name":"spr_ropes",
+    "path":"sprites/spr_ropes/spr_ropes.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -34,5 +34,5 @@
   "tileWidth":16,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":2080,
+  "tile_count":256,
 }

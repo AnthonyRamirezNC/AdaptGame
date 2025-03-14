@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"spr_ts_incinerator",
   "bboxMode":0,
-  "bbox_bottom":95,
+  "bbox_bottom":127,
   "bbox_left":0,
   "bbox_right":127,
   "bbox_top":0,
