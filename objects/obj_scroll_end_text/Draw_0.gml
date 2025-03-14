@@ -4,7 +4,7 @@ draw_set_valign(fa_middle)
 //draw_text(room_width / 2, y, "A long time ago in a galaxy far, far away...");
 
 // Split the intro text along the new line characters
-var lines = string_split(intro_text, "\n")
+var lines = string_split(outro_text, "\n")
 
 //for reference 55 is equivalent to 
 //This line spacing
