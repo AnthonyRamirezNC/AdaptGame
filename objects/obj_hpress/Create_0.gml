@@ -2,3 +2,4 @@
 event_inherited();
 
 vspeed = verticle_speed;
+depth = 0;
