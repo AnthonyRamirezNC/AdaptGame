@@ -24,6 +24,7 @@ if (accept_key) {
 			break;
 		case 1:
 			//Credits
+			room_goto(rm_Credits);
 			break;
 		case 2:
 			//End Game
