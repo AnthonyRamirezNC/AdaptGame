@@ -14,4 +14,4 @@ for(var i = 0; i < op_length; i++) {
 	draw_text_color(x+op_border, y+op_border + op_space* i , option[i], _c, _c, _c,_c, 1);	
 };
 _c = c_white;
-draw_text_color(525, 1020 , "Arrow Keys to Navigate & Spacebar to Select", _c, _c, _c,_c, 1);
+draw_text_color(525, 1020 , "Arrow Keys to Navigate & Enter to Select", _c, _c, _c,_c, 1);
