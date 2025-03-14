@@ -1,7 +1,2 @@
-if (x < 0){
- x = room_width;	
-}
-
-if (x > room_width) {
-x = 0;	
-}
+instance_destroy()
+room_restart()

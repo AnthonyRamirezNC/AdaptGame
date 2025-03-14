@@ -1,16 +1,16 @@
-if(instance_exists(obj_player)){
-	// pushing checks
-	if (keyboard_check(vk_left) and instance_place(x+obj_player.move_speed, y, obj_player)) {
-		hspeed = -obj_player.move_speed;
-		being_pushed = true;
-	} else if (keyboard_check(vk_right) and instance_place(x-obj_player.move_speed, y, obj_player)) {
-		hspeed = obj_player.move_speed;
-		being_pushed = true;
-	} else {
-		hspeed = 0;
-		being_pushed = false;
-	}
+
+// pushing checks
+if (keyboard_check(vk_left) and instance_place(x+obj_player.move_speed, y, obj_player)) {
+	hspeed = -obj_player.move_speed;
+	being_pushed = true;
+} else if (keyboard_check(vk_right) and instance_place(x-obj_player.move_speed, y, obj_player)) {
+	hspeed = obj_player.move_speed;
+	being_pushed = true;
+} else {
+	hspeed = 0;
+	being_pushed = false;
 }
+
 // Stop pushing if a block is in the way
 if (being_pushed) {
 	
