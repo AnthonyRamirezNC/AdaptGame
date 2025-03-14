@@ -61,7 +61,7 @@ function set_strength(lvl_strength) {
 
 // given the name of a level attribute it returns its value
 function dyn_get_level(name) {
-	var manager_id = inst_194F2EDD;
+	var manager_id = inst_5364217C;
 	if variable_instance_exists(manager_id, name)
 	{
 	    return variable_instance_get(manager_id, name);
@@ -71,7 +71,7 @@ function dyn_get_level(name) {
 }
 
 function dyn_add_level(name, add_val) {
-	var manager_id = inst_194F2EDD;
+	var manager_id = inst_5364217C;
 	if variable_instance_exists(manager_id, name)
 	{
 		var newVal = variable_instance_get(manager_id, name) + add_val;
