@@ -1,18 +1,24 @@
-if (keyboard_check(vk_left) and !instance_place(x-move_speed, y, obj_block)) {
+var left = keyboard_check(vk_left) or keyboard_check(ord("A"));
+var up = keyboard_check(vk_up) or keyboard_check(ord("W"));
+var right = keyboard_check(vk_right) or keyboard_check(ord("D"));
+
+
+
+if (left and !instance_place(x-move_speed, y, obj_block)) {
 	x -= move_speed
 	if (image_xscale > 0){
 		image_xscale *= -1	
 	}
 }
 
-if (keyboard_check(vk_right) and !instance_place(x+move_speed, y, obj_block)) {
+if (right and !instance_place(x+move_speed, y, obj_block)) {
 	x += move_speed
 	if (image_xscale < 0){
 		image_xscale *= -1	
 	}
 }
 
-if (keyboard_check(vk_up)){
+if (up){
 	if(instance_place(x, y+1, obj_block)){
 		vspeed = jump_height
 	}
@@ -39,10 +45,10 @@ if (state == States.Jumping) {
 }
 // Set state if not already jumping
 if (state != States.Jumping) {
-		if (keyboard_check(vk_up)) {
+		if (up) {
 		state = States.Jumping;
 		image_index += image_index % 8 + 56; // Get the correct index
-	} else if ((keyboard_check(vk_right) or keyboard_check(vk_left))) {
+	} else if ((right or left)) {
 		state = States.Moving;
 	} else {
 		state = States.Still;
