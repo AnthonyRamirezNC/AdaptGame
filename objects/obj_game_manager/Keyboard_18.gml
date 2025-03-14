@@ -31,13 +31,10 @@ if (keyboard_check_pressed(ord("P"))) {
 if (keyboard_check_pressed(ord("V"))) {
 	if (vision_level == 1) {
 		vision_level = 2;
-		energy_used += 1
 	} else if (vision_level == 2) {
 		vision_level = 3;
-		energy_used += 1
 	} else {
 		vision_level = 1;
-		energy_used -= 2
 	}
 	set_vision(vision_level);
 }
