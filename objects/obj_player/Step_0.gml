@@ -28,9 +28,6 @@ if(instance_place(x, y+1, obj_block)){
 if vspeed > 12 then vspeed = 12	
 
 
-
-
-
 // Animation stuff
 // Will take state off jumping if character is on ground
 if (state == States.Jumping) {
@@ -42,7 +39,7 @@ if (state == States.Jumping) {
 }
 // Set state if not already jumping
 if (state != States.Jumping) {
-	 if (keyboard_check(vk_up)) {
+		if (keyboard_check(vk_up)) {
 		state = States.Jumping;
 		image_index += image_index % 8 + 56; // Get the correct index
 	} else if ((keyboard_check(vk_right) or keyboard_check(vk_left))) {
@@ -71,5 +68,4 @@ switch (state) {
 		}
 	break;
 }
-
 
