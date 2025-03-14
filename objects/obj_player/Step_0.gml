@@ -11,30 +11,12 @@ if (keyboard_check(vk_right) and !instance_place(x+move_speed, y, obj_block) and
 		image_xscale *= -1	
 	}
 }
-//code to check if player is within the bounds of skill area
-if place_meeting(x,y, obj_skillArea) && menu_allowed_spawn{
-	if !instance_exists(obj_skillBox) {
-		instance_create_layer(x,y, "Instances", obj_skillBox)
-		player_in_menu = true
-	}
-} else {
-	instance_destroy(obj_skillBox)
-	instance_destroy(obj_spdButton)
-	instance_destroy(obj_healthButton)
-	instance_destroy(obj_jmpButton)
-	instance_destroy(obj_strButton)
-	instance_destroy(obj_visButton)
-	player_in_menu = false
-	menu_allowed_spawn = false
-}
 
-if (!player_in_menu) {
-	if (keyboard_check(vk_up)){
-		if(instance_place(x, y+1, obj_block)){
-			vspeed = jump_height
-		}
+if (keyboard_check(vk_up)){
+	if(instance_place(x, y+1, obj_block)){
+		vspeed = jump_height
 	}
-} //close bracket for if player is in menu
+}
 
 //gravity logic
 if(instance_place(x, y+1, obj_block)){
