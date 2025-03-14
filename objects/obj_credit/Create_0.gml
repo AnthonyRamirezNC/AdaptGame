@@ -10,3 +10,5 @@ option[3] = "Producer: Sergio Rodriguez";
 option[4] = "Hit 'Enter' to Restart :)";
 
 op_length = array_length(option);
+
+global.game_ongoing = false;
