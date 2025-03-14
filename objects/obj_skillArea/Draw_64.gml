@@ -30,5 +30,6 @@ draw_sprite_ext(spr_battery, obj_game_manager.vision_level, middle_col + 32, row
 var energy_left = obj_game_manager.energy_max - obj_game_manager.energy_used
 draw_set_halign(fa_center);
 var middle = x1 + (rect_w / 2)
+draw_set_font(fnt_skillMenu);
 draw_text(middle, y1 + inner_margin, "Energy Levels: " + string(energy_left));
 draw_set_halign(fa_left);
