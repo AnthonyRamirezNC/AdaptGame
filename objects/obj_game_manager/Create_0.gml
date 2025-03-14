@@ -12,6 +12,8 @@ energy_max = 10;
 hp = 1;
 show_debug_message(hp);
 
+global.score = 0
+
 // Creating globals
 global.var_energy = 5;
 global.var_energy_max = 5;
