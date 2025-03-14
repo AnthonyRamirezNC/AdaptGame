@@ -66,6 +66,7 @@
     {"id":{"name":"obj_next_room","path":"objects/obj_next_room/obj_next_room.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_pushable_block","path":"objects/obj_pushable_block/obj_pushable_block.yy",},},
+    {"id":{"name":"obj_scroll_text","path":"objects/obj_scroll_text/obj_scroll_text.yy",},},
     {"id":{"name":"obj_skillArea","path":"objects/obj_skillArea/obj_skillArea.yy",},},
     {"id":{"name":"obj_spdButton","path":"objects/obj_spdButton/obj_spdButton.yy",},},
     {"id":{"name":"obj_spike","path":"objects/obj_spike/obj_spike.yy",},},
@@ -130,12 +131,12 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_MainMenu","path":"rooms/rm_MainMenu/rm_MainMenu.yy",},},
+    {"roomId":{"name":"Instruction_screen","path":"rooms/Instruction_screen/Instruction_screen.yy",},},
     {"roomId":{"name":"Tutorial","path":"rooms/Tutorial/Tutorial.yy",},},
     {"roomId":{"name":"Incinerator","path":"rooms/Incinerator/Incinerator.yy",},},
-    {"roomId":{"name":"rm_Credits","path":"rooms/rm_Credits/rm_Credits.yy",},},
     {"roomId":{"name":"End_Screen","path":"rooms/End_Screen/End_Screen.yy",},},
+    {"roomId":{"name":"rm_Credits","path":"rooms/rm_Credits/rm_Credits.yy",},},
     {"roomId":{"name":"Incinerator_test","path":"rooms/Incinerator_test/Incinerator_test.yy",},},
-    {"roomId":{"name":"Instruction_screen","path":"rooms/Instruction_screen/Instruction_screen.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
