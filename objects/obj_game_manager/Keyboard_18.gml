@@ -1,6 +1,7 @@
 //cheat codes
 //restart the room(Press ALT + R)
 if(keyboard_check_pressed(ord("R"))){
+	global.score_can_increment = false
 	room_restart()
 }
 
