@@ -1,4 +1,4 @@
-depth = 2;
+depth += 1;
 alter_stats = false;
 
 border_color = make_color_rgb(193,180,112);
