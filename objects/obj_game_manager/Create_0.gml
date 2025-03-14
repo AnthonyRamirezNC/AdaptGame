@@ -24,3 +24,6 @@ global.var_player_spd = 0;
 global.var_player_jmp = 0;
 
 global.var_player_dying = false
+
+//controller to prevent health from appearing when in main menu
+global.game_ongoing = false;
