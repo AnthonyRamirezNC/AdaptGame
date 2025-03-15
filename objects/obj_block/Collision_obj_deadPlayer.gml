@@ -1,0 +1,1 @@
+other.vspeed = 0
