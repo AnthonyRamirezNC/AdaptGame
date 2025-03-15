@@ -21,12 +21,16 @@ function set_jump(lvl_jump) {
 function set_speed(lvl_speed) {
 	if (lvl_speed == 1) {
 		obj_player.move_speed = 4;
+		obj_player.animation_move_speed = .75;
 	} else if (lvl_speed == 2) {
 		obj_player.move_speed = 6;
+		obj_player.animation_move_speed = 1.45;
 	} else if (lvl_speed == 3) {
 		obj_player.move_speed = 8;
+		obj_player.animation_move_speed = 2;
 	} else {
 		obj_player.move_speed = 0;
+		obj_player.animation_move_speed = 0;
 	}
 }
 
