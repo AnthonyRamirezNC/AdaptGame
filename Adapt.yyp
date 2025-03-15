@@ -108,6 +108,7 @@
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},},
     {"id":{"name":"spr_car1","path":"sprites/spr_car1/spr_car1.yy",},},
     {"id":{"name":"spr_car2","path":"sprites/spr_car2/spr_car2.yy",},},
+    {"id":{"name":"spr_cbelt_inver","path":"sprites/spr_cbelt_inver/spr_cbelt_inver.yy",},},
     {"id":{"name":"spr_cbelt","path":"sprites/spr_cbelt/spr_cbelt.yy",},},
     {"id":{"name":"spr_character","path":"sprites/spr_character/spr_character.yy",},},
     {"id":{"name":"spr_cranes","path":"sprites/spr_cranes/spr_cranes.yy",},},

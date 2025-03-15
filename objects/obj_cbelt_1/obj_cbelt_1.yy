@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_cbelt",
-    "path":"sprites/spr_cbelt/spr_cbelt.yy",
+    "name":"spr_cbelt_inver",
+    "path":"sprites/spr_cbelt_inver/spr_cbelt_inver.yy",
   },
   "spriteMaskId":null,
   "visible":true,
