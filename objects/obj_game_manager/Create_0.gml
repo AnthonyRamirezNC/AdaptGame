@@ -10,7 +10,11 @@ energy_max = 10;
 
 // Player hp
 hp = 1;
+
+prev = false
 show_debug_message(hp);
+
+global.score = 0
 
 // Creating globals
 global.var_energy = 5;
@@ -22,6 +26,8 @@ global.var_player_spd = 0;
 global.var_player_jmp = 0;
 
 global.var_player_dying = false
+
+global.score_can_increment = true
 
 //controller to prevent health from appearing when in main menu
 global.game_ongoing = false;
