@@ -7,5 +7,5 @@ x = 0;
 }
 
 if(y > room_height) {
-	inflict_damage(4);	
+	inflict_damage(9999);	
 };
