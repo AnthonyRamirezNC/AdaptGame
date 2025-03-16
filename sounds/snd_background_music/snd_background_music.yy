@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":204.384,
+  "duration":379.6375,
   "name":"snd_background_music",
   "parent":{
     "name":"Sounds",
@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"snd_background_music.mp3",
   "type":0,
-  "volume":1.0,
+  "volume":0.4,
 }
