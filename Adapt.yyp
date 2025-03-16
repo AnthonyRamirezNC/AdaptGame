@@ -100,6 +100,7 @@
     {"id":{"name":"Tutorial","path":"rooms/Tutorial/Tutorial.yy",},},
     {"id":{"name":"scr_character_level_setter","path":"scripts/scr_character_level_setter/scr_character_level_setter.yy",},},
     {"id":{"name":"scr_damage","path":"scripts/scr_damage/scr_damage.yy",},},
+    {"id":{"name":"shd_flash","path":"shaders/shd_flash/shd_flash.yy",},},
     {"id":{"name":"shd_incinShade","path":"shaders/shd_incinShade/shd_incinShade.yy",},},
     {"id":{"name":"snd_background_music","path":"sounds/snd_background_music/snd_background_music.yy",},},
     {"id":{"name":"snd_bark","path":"sounds/snd_bark/snd_bark.yy",},},
