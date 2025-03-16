@@ -8,11 +8,11 @@ function scr_character_level_setter(){
 
 function set_jump(lvl_jump) {
 	if (lvl_jump == 1) {
-		obj_player.jump_height = -10;
+		obj_player.jump_height = -9;
 	} else if (lvl_jump == 2) {
-		obj_player.jump_height = -14;
+		obj_player.jump_height = -10.5;
 	} else if (lvl_jump == 3) {
-		obj_player.jump_height = -18;
+		obj_player.jump_height = -12;
 	} else {
 		obj_player.jump_height = 0;
 	}
@@ -23,10 +23,10 @@ function set_speed(lvl_speed) {
 		obj_player.move_speed = 4;
 		obj_player.animation_move_speed = .75;
 	} else if (lvl_speed == 2) {
-		obj_player.move_speed = 6;
+		obj_player.move_speed = 5.5;
 		obj_player.animation_move_speed = 1.45;
 	} else if (lvl_speed == 3) {
-		obj_player.move_speed = 8;
+		obj_player.move_speed = 7;
 		obj_player.animation_move_speed = 2;
 	} else {
 		obj_player.move_speed = 0;
