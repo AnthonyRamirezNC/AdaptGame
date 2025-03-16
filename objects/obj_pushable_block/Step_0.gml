@@ -1,9 +1,12 @@
+var left = keyboard_check(vk_left) or keyboard_check(ord("A"));
+var right = keyboard_check(vk_right) or keyboard_check(ord("D"));
+
 if(instance_exists(obj_player)){
 	// pushing checks
-	if (keyboard_check(vk_left) and instance_place(x+obj_player.move_speed, y, obj_player)) {
+	if (left and instance_place(x+obj_player.move_speed, y, obj_player)) {
 		hspeed = -obj_player.move_speed;
 		being_pushed = true;
-	} else if (keyboard_check(vk_right) and instance_place(x-obj_player.move_speed, y, obj_player)) {
+	} else if (right and instance_place(x-obj_player.move_speed, y, obj_player)) {
 		hspeed = obj_player.move_speed;
 		being_pushed = true;
 	} else {
