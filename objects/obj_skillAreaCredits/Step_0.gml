@@ -26,11 +26,9 @@ x2 = screen_w - outer_margin;
 y2 = outer_margin + rect_h;
 // Column and row axis Calculation:
 col1 = x1 + inner_margin;
-middle_col = x1 + (rect_w / 2) - (0.5 * actual_btn_size)
 col2 = x2 - inner_margin - actual_btn_size;
 row1 = y1 + inner_margin + space_for_text;
 row2 = row1 + actual_btn_size + inner_margin;
-row3 = row2 + actual_btn_size + inner_margin;
 
 
 
@@ -44,8 +42,7 @@ var buttons = [
 	[col1, row1, "durability_level"],
 	[col2, row1, "jump_level"],
 	[col1, row2, "speed_level"],
-	[col2, row2, "strength_level"],
-	[middle_col, row3, "vision_level"]
+	[col2, row2, "vision_level"]
 ]
 var num_of_buttons = array_length(buttons);
 
