@@ -8,7 +8,6 @@ function scr_character_level_setter(){
 
 function set_jump(lvl_jump) {
 	if (lvl_jump == 1) {
-
 		obj_player.jump_height = -9;
 	} else if (lvl_jump == 2) {
 		obj_player.jump_height = -10.5;
