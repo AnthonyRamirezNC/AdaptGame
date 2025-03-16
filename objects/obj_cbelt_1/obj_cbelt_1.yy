@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_cbelt",
+  "%Name":"obj_cbelt_1",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_deadPlayer","path":"objects/obj_deadPlayer/obj_deadPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_cbelt",
+  "name":"obj_cbelt_1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"obj_Died",
+    "path":"folders/Objects/obj_Died.yy",
   },
   "parentObjectId":{
     "name":"obj_block",
@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_cbelt",
-    "path":"sprites/spr_cbelt/spr_cbelt.yy",
+    "name":"spr_cbelt_inver",
+    "path":"sprites/spr_cbelt_inver/spr_cbelt_inver.yy",
   },
   "spriteMaskId":null,
   "visible":true,

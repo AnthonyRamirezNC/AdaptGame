@@ -10,6 +10,7 @@ else if(!global.score_can_increment or prev){
 }
 else if(global.var_player_dying){
 	show_debug_message("dead")
+	global.room_died = room
 }
 else{
 	show_debug_message("leaving/restarting intro or credit")

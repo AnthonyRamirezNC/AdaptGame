@@ -16,6 +16,8 @@ show_debug_message(hp);
 
 global.score = 0
 
+global.room_died = Instruction_screen
+
 // Creating globals
 global.var_energy = 5;
 global.var_energy_max = 5;

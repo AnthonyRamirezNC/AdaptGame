@@ -1,3 +1,5 @@
 //destroy player and then itself
-instance_destroy(other)
-instance_destroy()
+
+inflict_damage(4);
+
+instance_destroy();
