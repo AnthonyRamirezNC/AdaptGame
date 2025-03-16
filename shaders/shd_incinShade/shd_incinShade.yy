@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shd_incinShade",
+  "name":"shd_incinShade",
+  "parent":{
+    "name":"Shaders",
+    "path":"folders/Shaders.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}
