@@ -21,6 +21,7 @@ if (right and !instance_place(x+move_speed, y, obj_block) and !instance_place(x+
 if (up){
 	if(instance_place(x, y+1, obj_block)){
 		vspeed = jump_height
+		audio_play_sound(snd_jump, 10, false);
 	}
 }
 
