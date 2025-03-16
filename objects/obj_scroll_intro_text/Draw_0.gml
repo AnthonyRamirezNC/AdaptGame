@@ -16,11 +16,11 @@ for (var i = 0; i < array_length(lines); i++) {
     draw_text(room_width / 2, y + (i * line_height), lines[i])
 }
 
-if (y < 250){
+if (true){
 	global.can_skip = true
 	show_debug_message("y < 350 so letting skip")
 	//draw options
 	draw_set_font(fnt_menu);
-	draw_text(1700, 850 , "Press Enter to Skip");
+	draw_text(1700, 32 , "Press Enter to Skip");
 
 }
