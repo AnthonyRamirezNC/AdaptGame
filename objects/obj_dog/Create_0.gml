@@ -1,5 +1,2 @@
-// Inherit the parent event
-event_inherited();
-
+can_damage = true;
 hspeed = moveSpeed;
-

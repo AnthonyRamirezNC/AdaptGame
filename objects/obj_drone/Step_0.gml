@@ -24,6 +24,7 @@ if (speed > 0) {
 
 if (in_range and can_shoot) {
 	instance_create_layer(x, y, "Instances", obj_bullet);
+	audio_play_sound(snd_laser, 10, false);
 	can_shoot = false;
 	alarm[0] = fire_rate;
 }
