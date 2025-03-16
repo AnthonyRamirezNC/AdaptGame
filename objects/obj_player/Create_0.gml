@@ -16,4 +16,10 @@ menu_allowed_spawn = true;
 
 global.var_player_dying = false
 
+//hit effect
+damaged = false;
+damage_flicker = 3;
+damage_counter = 0;
+damage_duration = 3;
+
 scr_character_level_setter();
