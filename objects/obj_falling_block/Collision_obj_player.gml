@@ -2,4 +2,4 @@
 
 inflict_damage(4);
 
-instance_destroy()
+instance_destroy();
