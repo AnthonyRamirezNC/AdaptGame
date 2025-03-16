@@ -4,14 +4,14 @@ var right = keyboard_check(vk_right) or keyboard_check(ord("D"));
 
 
 
-if (left and !instance_place(x-move_speed, y, obj_block)) {
+if (left and !instance_place(x-move_speed, y, obj_block) and !instance_place(x-move_speed, y, obj_hpress_col)) {
 	x -= move_speed
 	if (image_xscale > 0){
 		image_xscale *= -1	
 	}
 }
 
-if (right and !instance_place(x+move_speed, y, obj_block)) {
+if (right and !instance_place(x+move_speed, y, obj_block) and !instance_place(x+move_speed, y, obj_hpress_col)) {
 	x += move_speed
 	if (image_xscale < 0){
 		image_xscale *= -1	

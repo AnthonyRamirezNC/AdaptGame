@@ -1,6 +1,7 @@
 //cheat codes
 //restart the room(Press ALT + R)
 if(keyboard_check_pressed(ord("R"))){
+	global.score_can_increment = false
 	room_restart()
 }
 
@@ -21,6 +22,7 @@ if (keyboard_check_pressed(ord("N"))) {
 if (keyboard_check_pressed(ord("P"))) {
     var prev_room = room_previous(room);
     if (prev_room != -1) {
+		prev = true
         room_goto(prev_room);
     }
 }

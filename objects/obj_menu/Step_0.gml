@@ -1,7 +1,7 @@
 //get inputs
 up_key = keyboard_check_pressed(vk_up);
 down_key = keyboard_check_pressed(vk_down);
-accept_key = keyboard_check_pressed(vk_space);
+accept_key = keyboard_check_pressed(vk_enter);
 
 
 //move through the menu
