@@ -2,6 +2,7 @@
 //restart the room(Press ALT + R)
 if(keyboard_check_pressed(ord("R"))){
 	global.score_can_increment = false
+	global.var_player_hp = 1;
 	room_restart()
 }
 
@@ -27,6 +28,9 @@ if (keyboard_check_pressed(ord("P"))) {
     }
 }
 
+if(keyboard_check_pressed(ord("H"))) {
+	hp += 10;
+}
 
 // Change viewport prototype of vision
 if (keyboard_check_pressed(ord("V"))) {

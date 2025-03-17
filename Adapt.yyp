@@ -158,8 +158,8 @@
     {"roomId":{"name":"Incinerator","path":"rooms/Incinerator/Incinerator.yy",},},
     {"roomId":{"name":"End_Screen","path":"rooms/End_Screen/End_Screen.yy",},},
     {"roomId":{"name":"rm_Credits","path":"rooms/rm_Credits/rm_Credits.yy",},},
-    {"roomId":{"name":"Incinerator_test","path":"rooms/Incinerator_test/Incinerator_test.yy",},},
     {"roomId":{"name":"rm_Died","path":"rooms/rm_Died/rm_Died.yy",},},
+    {"roomId":{"name":"Incinerator_test","path":"rooms/Incinerator_test/Incinerator_test.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

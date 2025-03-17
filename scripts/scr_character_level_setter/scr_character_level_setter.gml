@@ -42,7 +42,7 @@ function set_durability(lvl_durability) {
 	} else if (lvl_durability == 3) {
 		obj_game_manager.hp = 4;
 	} else {
-		obj_game_manager.hp = 2000;
+		obj_game_manager.hp = 1;
 	}
 	show_debug_message(obj_game_manager.hp);
 }
@@ -71,7 +71,7 @@ function dyn_get_level(name) {
 	    return variable_instance_get(manager_id, name);
 	} else {
 		return -69; //nice error code
-	}
+	} //bruh
 }
 
 function dyn_add_level(name, add_val) {
